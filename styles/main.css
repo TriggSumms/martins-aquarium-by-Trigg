@@ -41,3 +41,12 @@ h1 {
     text-shadow:1px 1px blue;
     text-align: center;
 }
+p, ol{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+opacity: 100%;
+list-style-type: none
+}
+li{
+list-style-type: none
+}
