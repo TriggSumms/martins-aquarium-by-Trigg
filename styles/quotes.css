@@ -1,7 +1,20 @@
-.quoteList {
-    background-color: lightyellow;
-}
+
 
 .quote {
-    background-color: yellow;
+    color: black ;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    opacity: 100%;
+    
+}
+
+.quoteList {
+    background: burlywood;
+    /* background-image: url(https://imgix.ranker.com/list_img_v2/7938/2187938/original/fun-facts-you-should-know-about-dolphins-u1?w=817&h=427&fm=jpg&q=50&fit=crop);  */
+    opacity: 80%;
+    line-height: 5em;
+    border-radius: 50%;
+
+
 }

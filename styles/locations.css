@@ -1,13 +1,26 @@
 .locationList {
-    background-color: mediumaquamarine;
+    background-color: mediumseagreen;
+    opacity: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* This needs to be remembered */
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    
 }
 
 .location {
-    background-color: mediumseagreen;
+    background-color: darkcyan;
+    
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 10%;
 }
 
 
 .location__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: auto;
+    max-height: 20em;
 }

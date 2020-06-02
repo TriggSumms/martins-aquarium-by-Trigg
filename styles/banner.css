@@ -1,3 +1,24 @@
 .banner {
-    background-color: darkgoldenrod;
+    background-image: url(https://66.media.tumblr.com/cfd2357d29a87513b4fe68b98b031ad8/tumblr_nmv47zIFj61upsmwno1_500.gif);
+    background-size: cover;
+    float:center;
+    border-radius: 50px;
+
+}
+.banner__logo{
+    float: left;
+}
+
+.banner__title1{
+    float: center;
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px whitesmoke;
+    
+}
+.banner__title2{
+    float: center;
+    font-size: 50px;
+    font-family: 'Freckle Face', cursive;
+    text-shadow: 1px 1px white, 5px 5px cadetblue;  
 }
