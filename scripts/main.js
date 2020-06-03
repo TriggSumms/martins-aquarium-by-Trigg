@@ -4,7 +4,7 @@
     fishList.js, but here is where you *invoke* the function
 */
 
-fishList()
+fishList() 
 tipList()
 locationList()
 quoteList()
