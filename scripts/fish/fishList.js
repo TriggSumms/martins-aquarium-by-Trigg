@@ -3,9 +3,46 @@
 Responsible for generating a list of fish HTML
 representations, and putting in the browser
 */
+const showHolyFish = () => {
+    //Get holy fish array
+    const holyFishArray = mostHolyFish();
+//iterate holyFish array
+    for (const holyFishObject of holyFishArray) {
+       const holyFishHTMLRepresentation = fishConverter(holyFishObject)
+       const fishArticleElement = document.querySelector(".fishList")
+       fishArticleElement.innerHTML += holyFishHTMLRepresentation
+    }
+}
+const showSoldierFish = () => {
+    //Get holy fish array
+    const soldierFishArray = soldierFish();
+//iterate holyFish array
+    for (const soldierFishObject of soldierFishArray) {
+       const soldierFishHTMLRepresentation = fishConverter(soldierFishObject)
+       const fishArticleElement = document.querySelector(".fishList")
+       fishArticleElement.innerHTML += soldierFishHTMLRepresentation
+    }
+}
+const showRegularFish = () => {
+    //Get holy fish array
+    const regularFishArray = regularFish();
+//iterate holyFish array
+    for (const regularFishObject of regularFishArray) {
+       const regularFishHTMLRepresentation = fishConverter(regularFishObject)
+       const fishArticleElement = document.querySelector(".fishList")
+       fishArticleElement.innerHTML += regularFishHTMLRepresentation
+    }
+}
+
+
 
 const fishList = () => {
-    // Iterate the collection of fish objects
+    showHolyFish()
+    showSoldierFish()
+    showRegularFish()
+}
+
+ /*     // Iterate the collection of fish objects
     for (const currentFishObject of fishCollection) {
 
         // Convert the current fish to its HTML representation
@@ -17,4 +54,11 @@ const fishList = () => {
         // Put the fish HTML representation inside the <article> element
         fishArticleElement.innerHTML += fishHTML
     }
-}
+}*/
+
+
+
+
+/* FOMO: ALTERNATIVE FUNCTION TRAINING N' Concise organization VIA STEVE 
+REFER TO CLASS VIDEO--> 6/03
+*/

@@ -3,6 +3,7 @@
     This function will convert a single fish object to an
     HTML representation and return it
 */
+
 const fishConverter = (fishObject) => {
 
     const fishHTMLRepresentation = `<section class="fish">
@@ -23,4 +24,7 @@ const fishConverter = (fishObject) => {
 
     return fishHTMLRepresentation
 
-}
+} 
+
+
+
