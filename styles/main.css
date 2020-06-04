@@ -4,6 +4,11 @@
 @import "quotes.css";
 @import "banner.css";
 
+html{
+    background-image: url(https://media2.giphy.com/media/xUOwFYQKZnVpuyn5ew/giphy.gif?cid=ecf05e4763d69e32d99e1b4ef29e8dcdc6795dbfbc4b7b9b&rid=giphy.gif);
+    background-size: cover;
+    opacity: 100%;
+}
 
 .container {
     display: flex;
@@ -23,4 +28,25 @@
 
 .underTheBanner__right {
     flex: 1;
+}
+
+/* Headerz */
+h1 {
+    /* font-family: 'Londrina Outline', cursive; */
+    font-family: 'Slackey', cursive;
+    margin: 0em;
+    padding: 0em;
+    color: white;
+    font-size: 44px;
+    text-shadow:1px 1px blue;
+    text-align: center;
+}
+p, ol{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+opacity: 100%;
+list-style-type: none
+}
+li{
+list-style-type: none
 }

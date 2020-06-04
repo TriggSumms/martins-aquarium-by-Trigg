@@ -1,13 +1,27 @@
 .fishList {
-    background-color: mediumorchid;
+    background-color: rgb(243, 208, 252);
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* This needs to be remembered */
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border-style: groove;
+    
 }
 
 .fish {
-    background-color: mediumvioletred;
+    background-color: darkcyan;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    transform: rotate(-8deg); /* This controls the tilt that will be removed via https://www.w3schools.com/CSSref/tryit.asp?filename=trycss3_image_gallery */
 }
 
 
 .fish__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 20rem;
+    max-height: 20rem;
 }
