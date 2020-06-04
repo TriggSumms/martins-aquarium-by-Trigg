@@ -1,5 +1,5 @@
-const locationCollection = [
-    {
+let locationCollection = [
+  /*   {
         picture:"https://hometone.com/wp-content/uploads/2012/07/image_title_5zgpz.jpg",
         altName:"Sea-Monkeys?",
         description: "Maybe this is how these fish are created?"
@@ -24,5 +24,20 @@ const locationCollection = [
         altName:"Looking for Scampz",
         description: "These lil bad bois worth the jump?"
      }
-
+ */
     ]
+
+
+    const getLocationData = () => {
+        return fetch("http://localhost:8088/locations").then(
+            (triggResponse) => {
+                return triggResponse.json()
+            }
+        )
+            .then(
+                (arrayOfLocation) => {
+                    // 100 percent sure the data is back
+                    locationCollection = arrayOfLocation
+                }
+            )
+    }

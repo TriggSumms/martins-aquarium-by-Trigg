@@ -1,5 +1,5 @@
-const fishCollection = [
-    {
+let fishCollection = [
+   /*   {
         species:"Parrot Fish",
         length: 44,
         name: "Angus",
@@ -62,8 +62,33 @@ const fishCollection = [
         picture:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.sRfV6BfxPOpv23XvUPX2pAHaE7%26pid%3DApi&f=1",
         location: "Edge of the Water",
         food: "Finger Nails"
-    }
+    }*/
 ]
+
+const getFishData = () => {
+    return fetch("http://localhost:8088/fish").then(
+        (triggResponse) => {
+            return triggResponse.json()
+        }
+    )
+        .then(
+            (arrayOfFish) => {
+                // 100 percent sure the data is back
+                fishCollection = arrayOfFish
+            }
+        )
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 // FILTERING EXERCISE DETERMINING HIERARCHY OF FISHES
