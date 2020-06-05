@@ -5,7 +5,8 @@
     "name": "Angus",
     "picture":"https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
     "location": "Sea of Google",
-    "food": "Popcorn"
+    "food": "Popcorn",
+    "id": 1
 },
 {
     "species":"Blow-Up Tha' Club Spongeboi",
@@ -13,7 +14,8 @@
     "name": "Chance",
     "picture":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.look4ward.co.uk%2Fwp-content%2Fuploads%2F2016%2F10%2Frsz_fish.jpg&f=1&nofb=1",
     "location": "Where the party is at...",
-    "food": "Legos and Soy Sauce"
+    "food": "Legos and Soy Sauce",
+    "id": 2
 },
 {
     "species":"FancyFootBois",
@@ -21,7 +23,8 @@
     "name": "Danceswiththebestintentions",
     "picture":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.divebuddy.com%2Fmembers%2Fphotos%2Fpic_1_66334.jpg&f=1&nofb=1",
     "location": "Sea Floor For-Sure" ,
-    "food": "No food on the Weekendz"
+    "food": "No food on the Weekendz",
+    "id": 3
 },
 {
     "species":"ShybOi",
@@ -29,7 +32,8 @@
     "name": "Tater",
     "picture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fef%2F15%2F9c%2Fef159ceea66a36e3e34148b80f78e125.jpg&f=1&nofb=1",
     "location": "Behind the Corral",
-    "food": "Skittles"
+    "food": "Skittles",
+    "id": 4
 },
 {
     "species":"Water Pony",
@@ -37,7 +41,8 @@
     "name": "Scooter",
     "picture":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flist25.com%2Fwp-content%2Fuploads%2F2013%2F07%2Fseacreatures.png&f=1&nofb=1",
     "location": "from A to B",
-    "food": "Kelpz"
+    "food": "Kelpz",
+    "id": 5
 },
 {
     "species":"In Charge",
@@ -45,7 +50,8 @@
     "name": "Lancer",
     "picture":"https://i.pinimg.com/originals/1f/2f/df/1f2fdf92b20a05901129591a70a82863.jpg",
     "location": "In ya Subdivision",
-    "food": "tic tacs"
+    "food": "tic tacs",
+    "id": 6
 },
 {
     "species":"X-files Fish Boi Grown-Up",
@@ -53,7 +59,8 @@
     "name": "Kevin",
     "picture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fc1%2Fe2%2F42%2Fc1e24226efc2bfa1899ed66a3576cc6a.jpg&f=1&nofb=1",
     "location": "Sewerz",
-    "food": "Yugioh Cards"
+    "food": "Yugioh Cards",
+    "id": 7
 },
 {
     "species":"Water Possum",
@@ -61,125 +68,173 @@
     "name": "Hard Bitez",
     "picture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.sRfV6BfxPOpv23XvUPX2pAHaE7%26pid%3DApi&f=1",
     "location": "Edge of the Water",
-    "food": "Finger Nails"
+    "food": "Finger Nails",
+    "id": 8
 }],
 
     "locations": [
         {
             "picture":"https://hometone.com/wp-content/uploads/2012/07/image_title_5zgpz.jpg",
             "altName":"Sea-Monkeys?",
-            "description": "Maybe this is how these fish are created?"
+            "description": "Maybe this is how these fish are created?",
+            "id": 1
         },
         {
             "picture":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F_60A8zsWp2jY%2FTNuSLsO0AXI%2FAAAAAAAAAiU%2FipxjzPZAAGc%2Fs1600%2Fabyss_water_face.jpg&f=1&nofb=1",
             "altName":"kissy",
-            "description":  "You gonna have to slide a lil kiss with this mirror-jabbawockee to find all tha fish!"
+            "description":  "You gonna have to slide a lil kiss with this mirror-jabbawockee to find all tha fish!",
+            "id": 2
         },
         {
             "picture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FswqMmH-OWYU%2Fmaxresdefault.jpg&f=1&nofb=1",
             "altName":"Cmon",
-            "description": "Dont wanna end up like these stone cold hunkz...Best stop looking for these water pupz."
+            "description": "Dont wanna end up like these stone cold hunkz...Best stop looking for these water pupz.",
+            "id": 3
          },
         {
             "picture":"https://res.cloudinary.com/mommy-nearest/image/upload/c_crop,h_1439,w_3238,x_4,y_15/c_scale,f_auto,fl_lossy,q_75,w_848/dz5hoagxajulqdlmx6xm",
             "altName":"Creavace of Society",
-            "description":"Tha Lil fish will chase lasers just like your other pets! Bring ya tank to tha RINK!"
+            "description":"Tha Lil fish will chase lasers just like your other pets! Bring ya tank to tha RINK!",
+            "id": 4
          },
         {
             "picture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.unilad.co.uk%2Fwp-content%2Fuploads%2F2016%2F12%2F27723UNILAD-imageoptim-sinkhole.jpg&f=1&nofb=1",
             "altName":"Looking for Scampz",
-            "description": "These lil bad bois worth the jump?"
+            "description": "These lil bad bois worth the jump?",
+            "id": 5
          }
     ],
     "tips": [
         {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 1
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 2
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 3
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 4
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 5
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 6
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 7
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 8
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 9
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 10
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 11
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 12
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 13
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 14
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 15
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 16
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 17
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 18
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 19
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 20
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 21
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 22
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 23
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 24
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 25
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 26
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 27
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 28
     },
     {
-        "tip": "DONT Hand Feed the Fish"
+        "tip": "DONT Hand Feed the Fish",
+        "id": 29
     },
     {
-        "tip": "Yuh boi"
-    }]
+        "tip": "Yuh boi",
+        "id": 30
+    }],
+    "quotes": [
+        {
+            "phrase": "This ain't the first time I've been caught shoplifting at the BassPro", "id": 1 
+         },
+         {
+             "phrase": "Time to see whats been eating all my Scrimpz", "id":2
+          },
+          {
+             "phrase": "Em gosh dang Eel Boiz ate my babi", "id":3
+          }
+    ]
+
 }

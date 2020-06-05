@@ -25,8 +25,10 @@ getLocationData().then(
     })
     console.log("outside", locationCollection)
 
+getQuoteData().then(
+        ()=>{
+        console.log("inside", quoteCollection)
+        quoteList()
+        })
+        console.log("outside", quoteCollection)
 
-
-
-
-    quoteList()
