@@ -1,3 +1,13 @@
+
+const tipVisibilityButton = document.querySelector(".toggleTips")
+
+tipVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".tipList").classList.toggle("hidden")
+})
+
+
+
+
 const tipList = () => {
     // Iterate the collection of fish objects
     for (const currentTipObject of tipCollection) {

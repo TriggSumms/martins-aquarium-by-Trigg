@@ -50,3 +50,21 @@ list-style-type: none
 li{
 list-style-type: none
 }
+
+
+
+
+/* Hidding the toggle event in DOM */
+.hidden {
+    display:none;
+}
+button, select {
+background-color: rgb(255, 154, 117); /* Green */
+border: groove;
+color: aquamarine;
+padding: 15px 50px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}

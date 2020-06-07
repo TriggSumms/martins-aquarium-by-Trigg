@@ -1,3 +1,16 @@
+// Toggle Button for LIST 
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".locationList").classList.toggle("hidden")
+})
+
+
+
+
+
+// HTML 
+
 const locationList = () => {
     // Iterate the collection of fish objects
     for (const currentLocationObject of locationCollection) {

@@ -84,13 +84,6 @@ const getFishData = () => {
 
 
 
-
-
-
-
-
-
-
 // FILTERING EXERCISE DETERMINING HIERARCHY OF FISHES
 
 // 3, 6, 9, 12, etc... fish
